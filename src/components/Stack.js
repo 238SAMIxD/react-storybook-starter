@@ -8,7 +8,7 @@ function Stack({ children, spacing = 2, direction = "row", wrap = false }) {
         flexWrap: wrap ? "wrap" : "nowrap",
         flexDirection: direction
     };
-    console.log(children, style)
+    
     return <div style={style}>{children}</div>;
 }
 
